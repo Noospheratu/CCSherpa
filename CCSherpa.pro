@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    sfr_list.cpp \
+    sfr_object.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    sfr_list.h \
+    sfr_object.h
 
 FORMS    += mainwindow.ui

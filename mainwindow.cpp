@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+#include "sfr_object.h"
+#include "sfr_list.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
